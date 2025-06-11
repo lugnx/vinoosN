@@ -1,0 +1,247 @@
+body {
+     background-color: #FFF5E6; /* Cremita */
+     margin: 0;
+     font-family: 'Lora', serif; /* Lucida Bright alternativa */
+   }
+
+   .App {
+     text-align: center;
+   }
+
+   .welcome-banner {
+     background-color: #FFF5E6; /* Cremita */
+     padding: 20px;
+     margin-top: 100px;
+     margin-bottom: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+   }
+
+   .welcome-banner h1 {
+     color: #5A0015; /* Vino tinto */
+     margin: 0;
+     font-size: 48px;
+     font-family: 'Bodoni Moda', serif; /* Didot alternativa */
+     letter-spacing: 2px;
+   }
+
+   .welcome-banner .banner-icon {
+     color: #5A0015; /* Vino tinto */
+     font-size: 50px;
+   }
+
+   .navbar {
+     width: 600px; /* Ancho similar al ejemplo */
+     margin: 0 auto;
+   }
+
+   .menu-grid {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 20px;
+   }
+
+   .menu-item {
+     background-color: #5A0015; /* Vino tinto */
+     border-radius: 10px;
+     border: 2px solid #5A0015; /* Borde vino tinto */
+     padding: 5px;
+     text-align: center;
+   }
+
+   .menu-item a {
+     background-color: #FFF5E6; /* Cremita */
+     color: #5A0015; /* Vino tinto */
+     text-decoration: none;
+     font-size: 18px;
+     font-family: 'Lora', serif; /* Lucida Bright alternativa */
+     display: block;
+     padding: 15px;
+     border-radius: 8px;
+     transition: background-color 0.3s ease;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+   }
+
+   .menu-item a:hover {
+     background-color: #FFE8D6; /* Cremita más oscuro para hover */
+   }
+
+   .menu-item i {
+     font-size: 16px;
+   }
+
+   .auth-links {
+     position: absolute;
+     top: 15px;
+     right: 25px;
+     display: flex;
+     gap: 20px;
+   }
+
+   .auth-link {
+     color: #5A0015; /* Vino tinto */
+     text-decoration: none;
+     font-size: 18px;
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     font-family: 'Lora', serif; /* Lucida Bright alternativa */
+   }
+
+   .auth-link:hover {
+     color: #800020; /* Vino más claro */
+   }
+
+   .auth-link i {
+     font-size: 16px;
+   }
+
+   .home {
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+     align-items: center;
+     justify-content: flex-start;
+   }
+
+   .page {
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     min-height: 100vh;
+   }
+
+   .admin-page {
+     justify-content: flex-start;
+   }
+
+   .admin-options {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     width: 280px;
+   }
+
+   .admin-button {
+     background-color: #FFF5E6; /* Cremita */
+     color: #5A0015; /* Vino tinto */
+     text-decoration: none;
+     font-size: 18px;
+     font-family: 'Lora', serif; /* Lucida Bright alternativa */
+     padding: 15px 20px;
+     border-radius: 10px;
+     border: 2px solid #5A0015; /* Borde vino tinto */
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     transition: background-color 0.3s ease;
+   }
+
+   .admin-button:hover {
+     background-color: #FFE8D6; /* Cremita más oscuro para hover */
+   }
+
+   .admin-button i {
+     font-size: 16px;
+   }
+
+   .login-page {
+     justify-content: flex-start;
+   }
+
+   .login-form {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     width: 280px;
+   }
+
+   .form-group {
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+   }
+
+   .form-group label {
+     color: #5A0015; /* Vino tinto */
+     font-size: 16px;
+     text-align: left;
+   }
+
+   .form-group input {
+     padding: 10px;
+     border: 2px solid #5A0015; /* Borde vino tinto */
+     border-radius: 5px;
+     font-size: 16px;
+     font-family: 'Lora', serif;
+     background-color: #FFF5E6; /* Cremita */
+     color: #5A0015;
+   }
+
+   .form-group input:focus {
+     outline: none;
+     border-color: #800020; /* Vino más claro */
+   }
+
+   .form-checkbox {
+     flex-direction: row;
+     align-items: center;
+     gap: 10px;
+   }
+
+   .form-checkbox input {
+     width: 20px;
+     height: 20px;
+     cursor: pointer;
+   }
+
+   .form-checkbox label {
+     font-size: 16px;
+     cursor: pointer;
+   }
+
+   .error-message {
+     color: #800020; /* Vino más claro */
+     font-size: 14px;
+     margin: 0;
+   }
+
+   .login-button {
+     background-color: #FFF5E6; /* Cremita */
+     color: #5A0015; /* Vino tinto */
+     font-size: 18px;
+     font-family: 'Lora', serif; /* Lucida Bright alternativa */
+     padding: 15px 20px;
+     border-radius: 10px;
+     border: 2px solid #5A0015; /* Borde vino tinto */
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     transition: background-color 0.3s ease;
+     text-decoration: none;
+   }
+
+   .login-button:hover {
+     background-color: #FFE8D6; /* Cremita más oscuro para hover */
+   }
+
+   .login-button i {
+     font-size: 16px;
+   }
+
+   .form-buttons {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     margin-top: 20px;
+   }
