@@ -1,247 +1,486 @@
 body {
-     background-color: #FFF5E6; /* Cremita */
-     margin: 0;
-     font-family: 'Lora', serif; /* Lucida Bright alternativa */
-   }
+  background-color: #FFF5E6;
+  margin: 0;
+  font-family: 'Lora', serif;
+}
 
-   .App {
-     text-align: center;
-   }
+.App {
+  text-align: center;
+}
 
-   .welcome-banner {
-     background-color: #FFF5E6; /* Cremita */
-     padding: 20px;
-     margin-top: 100px;
-     margin-bottom: 50px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     gap: 20px;
-   }
+.welcome-banner {
+  background-color: #FFF5E6;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
 
-   .welcome-banner h1 {
-     color: #5A0015; /* Vino tinto */
-     margin: 0;
-     font-size: 48px;
-     font-family: 'Bodoni Moda', serif; /* Didot alternativa */
-     letter-spacing: 2px;
-   }
+.welcome-banner h1 {
+  color: #5A0015;
+  margin: 0;
+  font-size: 48px;
+  font-family: 'Bodoni Moda', serif;
+  letter-spacing: 2px;
+}
 
-   .welcome-banner .banner-icon {
-     color: #5A0015; /* Vino tinto */
-     font-size: 50px;
-   }
+.welcome-banner .banner-icon {
+  color: #5A0015;
+  font-size: 50px;
+}
 
-   .navbar {
-     width: 600px; /* Ancho similar al ejemplo */
-     margin: 0 auto;
-   }
+.navbar {
+  width: 600px;
+  margin: 0 auto;
+}
 
-   .menu-grid {
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     gap: 20px;
-   }
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
 
-   .menu-item {
-     background-color: #5A0015; /* Vino tinto */
-     border-radius: 10px;
-     border: 2px solid #5A0015; /* Borde vino tinto */
-     padding: 5px;
-     text-align: center;
-   }
+.menu-item {
+  background-color: #5A0015;
+  border-radius: 10px;
+  border: 2px solid #5A0015;
+  padding: 5px;
+  text-align: center;
+}
 
-   .menu-item a {
-     background-color: #FFF5E6; /* Cremita */
-     color: #5A0015; /* Vino tinto */
-     text-decoration: none;
-     font-size: 18px;
-     font-family: 'Lora', serif; /* Lucida Bright alternativa */
-     display: block;
-     padding: 15px;
-     border-radius: 8px;
-     transition: background-color 0.3s ease;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     gap: 10px;
-   }
+.menu-item a {
+  background-color: #FFF5E6;
+  color: #5A0015;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  display: block;
+  padding: 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 
-   .menu-item a:hover {
-     background-color: #FFE8D6; /* Cremita más oscuro para hover */
-   }
+.menu-item a:hover {
+  background-color: #FFE8D6;
+}
 
-   .menu-item i {
-     font-size: 16px;
-   }
+.menu-item i {
+  font-size: 16px;
+}
 
-   .auth-links {
-     position: absolute;
-     top: 15px;
-     right: 25px;
-     display: flex;
-     gap: 20px;
-   }
+.auth-links {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  display: flex;
+  gap: 20px;
+}
 
-   .auth-link {
-     color: #5A0015; /* Vino tinto */
-     text-decoration: none;
-     font-size: 18px;
-     display: flex;
-     align-items: center;
-     gap: 8px;
-     font-family: 'Lora', serif; /* Lucida Bright alternativa */
-   }
+.auth-link {
+  color: #5A0015;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Lora', serif;
+}
 
-   .auth-link:hover {
-     color: #800020; /* Vino más claro */
-   }
+.auth-link:hover {
+  color: #800020;
+}
 
-   .auth-link i {
-     font-size: 16px;
-   }
+.auth-link i {
+  font-size: 16px;
+}
 
-   .home {
-     display: flex;
-     flex-direction: column;
-     min-height: 100vh;
-     align-items: center;
-     justify-content: flex-start;
-   }
+.home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: flex-start;
+}
 
-   .page {
-     padding: 20px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     min-height: 100vh;
-   }
+.page {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
 
-   .admin-page {
-     justify-content: flex-start;
-   }
+.admin-page {
+  justify-content: flex-start;
+}
 
-   .admin-options {
-     display: flex;
-     flex-direction: column;
-     gap: 20px;
-     width: 280px;
-   }
+.admin-options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 280px;
+}
 
-   .admin-button {
-     background-color: #FFF5E6; /* Cremita */
-     color: #5A0015; /* Vino tinto */
-     text-decoration: none;
-     font-size: 18px;
-     font-family: 'Lora', serif; /* Lucida Bright alternativa */
-     padding: 15px 20px;
-     border-radius: 10px;
-     border: 2px solid #5A0015; /* Borde vino tinto */
-     text-align: center;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     gap: 10px;
-     transition: background-color 0.3s ease;
-   }
+.admin-button {
+  background-color: #FFF5E6;
+  color: #5A0015;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 2px solid #5A0015;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+}
 
-   .admin-button:hover {
-     background-color: #FFE8D6; /* Cremita más oscuro para hover */
-   }
+.admin-button:hover {
+  background-color: #FFE8D6;
+}
 
-   .admin-button i {
-     font-size: 16px;
-   }
+.admin-button i {
+  font-size: 16px;
+}
 
-   .login-page {
-     justify-content: flex-start;
-   }
+.login-page {
+  justify-content: flex-start;
+}
 
-   .login-form {
-     display: flex;
-     flex-direction: column;
-     gap: 20px;
-     width: 280px;
-   }
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 280px;
+}
 
-   .form-group {
-     display: flex;
-     flex-direction: column;
-     gap: 5px;
-   }
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 
-   .form-group label {
-     color: #5A0015; /* Vino tinto */
-     font-size: 16px;
-     text-align: left;
-   }
+.form-group label {
+  color: #5A0015;
+  font-size: 16px;
+  text-align: left;
+}
 
-   .form-group input {
-     padding: 10px;
-     border: 2px solid #5A0015; /* Borde vino tinto */
-     border-radius: 5px;
-     font-size: 16px;
-     font-family: 'Lora', serif;
-     background-color: #FFF5E6; /* Cremita */
-     color: #5A0015;
-   }
+.form-group input {
+  padding: 10px;
+  border: 2px solid #5A0015;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Lora', serif;
+  background-color: #DB7093;
+  color: #000000;
+}
 
-   .form-group input:focus {
-     outline: none;
-     border-color: #800020; /* Vino más claro */
-   }
+.form-group input:focus {
+  outline: none;
+  border-color: #800020;
+}
 
-   .form-checkbox {
-     flex-direction: row;
-     align-items: center;
-     gap: 10px;
-   }
+.form-checkbox {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
 
-   .form-checkbox input {
-     width: 20px;
-     height: 20px;
-     cursor: pointer;
-   }
+.form-checkbox input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
 
-   .form-checkbox label {
-     font-size: 16px;
-     cursor: pointer;
-   }
+.form-checkbox label {
+  font-size: 16px;
+  cursor: pointer;
+}
 
-   .error-message {
-     color: #800020; /* Vino más claro */
-     font-size: 14px;
-     margin: 0;
-   }
+.error-message {
+  color: #800020;
+  font-size: 14px;
+  margin: 0;
+}
 
-   .login-button {
-     background-color: #FFF5E6; /* Cremita */
-     color: #5A0015; /* Vino tinto */
-     font-size: 18px;
-     font-family: 'Lora', serif; /* Lucida Bright alternativa */
-     padding: 15px 20px;
-     border-radius: 10px;
-     border: 2px solid #5A0015; /* Borde vino tinto */
-     cursor: pointer;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     gap: 10px;
-     transition: background-color 0.3s ease;
-     text-decoration: none;
-   }
+.login-button {
+  background-color: #900C3F;
+  color: #FFF5E6;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 2px solid #5A0015;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
 
-   .login-button:hover {
-     background-color: #FFE8D6; /* Cremita más oscuro para hover */
-   }
+.login-button:hover {
+  background-color: #FFE8D6;
+  color: #5A0015;
+}
 
-   .login-button i {
-     font-size: 16px;
-   }
+.login-button i {
+  font-size: 16px;
+}
 
-   .form-buttons {
-     display: flex;
-     flex-direction: column;
-     gap: 10px;
-     margin-top: 20px;
-   }
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Estilos para el Dashboard */
+.top-bar {
+  background-color: #900C3F;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  color: #FFF5E6;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #DB7093;
+  min-height: 100vh;
+  padding: 20px;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar h2 i {
+  margin-right: 10px;
+  color: #000000;
+}
+
+.sidebar h3 {
+  color: #000000;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.sidebar button {
+  background-color: #FFF5E6;
+  border: 1px solid #000000;
+  color: #000000;
+  text-align: left;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.sidebar button i {
+  margin-right: 10px;
+  color: #900C3F;
+}
+
+.sidebar button:hover {
+  background-color: #FFE8D6;
+}
+
+.sidebar .logout-button {
+  background-color: #900C3F;
+  color: #FFF5E6;
+  border: 1px solid #000000;
+}
+
+.sidebar .logout-button i {
+  color: #FFF5E6;
+}
+
+.sidebar .logout-button:hover {
+  background-color: #800020;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.main-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  color: #000000;
+}
+
+.main-content h1 i {
+  margin-right: 15px;
+  color: #900C3F;
+  font-size: 48px;
+}
+
+.main-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #5A0015;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.action-buttons-row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.action-buttons button {
+  background-color: #FFF5E6;
+  border: 2px solid #000000;
+  color: #900C3F;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: 45%;
+}
+
+.action-buttons .ticket-button {
+  width: auto;
+  padding: 15px 20px;
+}
+
+.action-buttons button i {
+  margin-right: 10px;
+  color: #900C3F;
+  font-size: 24px;
+}
+
+.action-buttons button:hover {
+  background-color: #900C3F;
+  color: #FFF5E6;
+}
+
+.action-buttons button:hover i {
+  color: #FFF5E6;
+}
+
+.notification-box, .pending-orders-box {
+  background-color: #FFF5E6;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #000000;
+  width: 100%;
+}
+
+.notification-box h2, .pending-orders-box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #5A0015;
+}
+
+.notification-box h2 i, .pending-orders-box h2 i {
+  margin-right: 10px;
+  color: #900C3F;
+}
+
+.notification-box hr, .pending-orders-box hr {
+  margin: 10px 0;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #5A0015;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: #DB7093;
+  color: #000000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  border: 1px solid #5A0015;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #FFE8D6;
+}
+
+.view-all {
+  color: #900C3F;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.view-all:hover {
+  text-decoration: underline;
+}
+
+.view-details {
+  color: #900C3F;
+  cursor: pointer;
+}
+
+.view-details:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para ChangePassword */
+.change-password-page {
+  justify-content: flex-start;
+}
+
+.change-password-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 280px;
+}
